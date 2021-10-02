@@ -15,4 +15,4 @@ def click_search(context):
 @then('Verify "Explore" button working')
 def verify_search_worked(context):
     expected_result = 'https://www.youtube.com/feed/explore'
-    assert 'https://www.youtube.com/feed/explore' in context.driver.current_url, f'Expected {expected_result}, but got {context.driver.current_url}'
+    assert expected_result in context.driver.current_url, f'Expected {expected_result}, but got {context.driver.current_url}'
