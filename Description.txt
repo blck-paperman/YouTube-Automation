@@ -1,0 +1,9 @@
+Currently, supported Chrome Version 93.0.4577.63 (Official Build) (64-bit)
+
+    Tests description (Big tests):
+        1. youtube_main_page_test.feature ----------------- Whole YouTube main page test
+
+    Tests description (Small tests):
+        1. youtube_home_button_test.feature --------------- Testing "Home" button on the main page
+        2. youtube_explore_button_test.feature ------------ Testing "Explore" button on the main page
+        3. youtube_subscriptions_button_test.feature ------ Testing "Subscriptions" button on the main page

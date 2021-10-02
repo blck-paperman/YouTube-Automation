@@ -17,3 +17,8 @@ Feature: Test YouTube Main page
     Given Open Explore YouTube page
     When Click "Home" button
     Then Verify "Home" button working
+
+  Scenario: Check "Subscriptions" button on the main page
+    Given Open YouTube page
+    When Click "Subscriptions" button
+    Then Verify "Subscriptions" button working
