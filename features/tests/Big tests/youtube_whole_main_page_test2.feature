@@ -26,3 +26,11 @@ Feature: Test YouTube Main/Home page
     Given Open YouTube page
     When Click "History" button
     Then Verify "History" button working
+      #  Check "Sign in" button on the main page side menu
+    Given Open YouTube page
+    When Click "Sign in" button on left side
+    Then Verify "Sign in" button worked
+      #  Check "Sign in" button on the main page, side menu
+    Given Open YouTube page
+    When Click "Sign in" button on left side
+    Then Verify "Sign in" button worked

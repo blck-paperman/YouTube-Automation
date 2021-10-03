@@ -1,8 +1,8 @@
 Currently, supported Chrome Version 93.0.4577.63 (Official Build) (64-bit)
 
     Tests description (Big tests):
-        1. youtube_whole_main_page_test.feature ------------- Whole YouTube main page test, multiple scenarios
-        2. youtube_whole_main_page_test2.feature ------------ Whole YouTube main page test, with 1 scenario (faster than #1)
+        1. youtube_whole_main_page_test.feature ------------- Whole YouTube main page test, multiple scenarios (14.2sec)
+        2. youtube_whole_main_page_test2.feature ------------ Whole YouTube main page test, with 1 scenario (faster than #1) (12.9sec)
 
     Tests description (Small tests):
         1. youtube_main_page_test.feature ------------------- Testing YouTube main page
@@ -10,3 +10,5 @@ Currently, supported Chrome Version 93.0.4577.63 (Official Build) (64-bit)
         3. youtube_explore_button_test.feature -------------- Testing "Explore" button on the main page
         4. youtube_subscriptions_button_test.feature -------- Testing "Subscriptions" button on the main page
         5. youtube_library_button_test.feature -------------- Testing "Library" button on the main page
+        6. youtube_history_button_test.feature -------------- Testing "History" button on the main page
+        7. youtube_sign_in_side_button_test.feature --------- Testing "Sign in" button on the main page, side menu (checked by XPATH, text)
