@@ -6,6 +6,10 @@ Feature: Test YouTube Main/Home page
       #  Main page test
     Given Open YouTube page
     Then Verify that YouTube page opened
+      #  Check "YouTube" button on the main page
+    Given Open YouTube page
+    When Click "YouTube" button
+    Then Verify "YouTube" button working
       #  Check "Home" button on the main page
     Given Open Explore YouTube page
     When Click "Home" button

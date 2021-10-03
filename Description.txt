@@ -6,9 +6,10 @@ Currently, supported Chrome Version 93.0.4577.63 (Official Build) (64-bit)
 
     Tests description (Small tests):
         1. youtube_main_page_test.feature ------------------- Testing YouTube main page
-        2. youtube_home_button_test.feature ----------------- Testing "Home" button on the main page
-        3. youtube_explore_button_test.feature -------------- Testing "Explore" button on the main page
-        4. youtube_subscriptions_button_test.feature -------- Testing "Subscriptions" button on the main page
-        5. youtube_library_button_test.feature -------------- Testing "Library" button on the main page
-        6. youtube_history_button_test.feature -------------- Testing "History" button on the main page
-        7. youtube_sign_in_side_button_test.feature --------- Testing "Sign in" button on the main page, side menu (checked by XPATH, text)
+        2. youtube_home_button_test.feature ----------------- Testing "YouTube" button on the main page
+        3. youtube_home_button_test.feature ----------------- Testing "Home" button on the main page
+        4. youtube_explore_button_test.feature -------------- Testing "Explore" button on the main page
+        5. youtube_subscriptions_button_test.feature -------- Testing "Subscriptions" button on the main page
+        6. youtube_library_button_test.feature -------------- Testing "Library" button on the main page
+        7. youtube_history_button_test.feature -------------- Testing "History" button on the main page
+        8. youtube_sign_in_side_button_test.feature --------- Testing "Sign in" button on the main page, side menu (checked by XPATH, text)
