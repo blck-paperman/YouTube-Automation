@@ -30,3 +30,8 @@ Feature: Test YouTube Main page
     When Click "Library" button
     Then Verify "Library" button working
 
+
+  Scenario: Check "History" button on the main page
+    Given Open YouTube page
+    When Click "History" button
+    Then Verify "History" button working
