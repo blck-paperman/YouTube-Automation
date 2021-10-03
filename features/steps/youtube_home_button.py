@@ -8,11 +8,12 @@ def open_youtube_explore(context):
 
 
 @when('Click "Home" button')
-def click_search(context):
+def click_button_home(context):
     context.driver.find_element(By.XPATH, "//a[@id='endpoint']//yt-formatted-string[text()='Home']").click()
 
 
 @then('Verify "Home" button working')
-def verify_search_worked(context):
+def verify_home_button_worked(context):
     expected_result = 'https://www.youtube.com/'
-    assert expected_result in context.driver.current_url, f'Expected {expected_result}, but got {context.driver.current_url}'
+    assert expected_result in context.driver.current_url, f'Expected {expected_result}, ' \
+                                                          f'but got {context.driver.current_url}'
