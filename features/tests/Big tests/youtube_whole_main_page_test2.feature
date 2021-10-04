@@ -42,3 +42,7 @@ Feature: Test YouTube Main/Home page
     Given Open YouTube page
     When Click "Music" button on left side
     Then Verify "Music" button worked
+      #  Check "Sports" button on the main page
+    Given Open YouTube page
+    When Click "Sports" button on left side
+    Then Verify "Sports" button worked

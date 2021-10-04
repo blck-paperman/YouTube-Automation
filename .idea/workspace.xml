@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a2a5b7-8998-4b97-a74c-ce5a1ecc36bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/features/steps/youtube_music_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/tests/Small tests/youtube_music_button_test.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps/youtube_sports_button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/tests/Small tests/youtube_sports_button_test.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Description.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/tests/Big tests/youtube_whole_main_page_test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Big tests/youtube_whole_main_page_test.feature" afterDir="false" />
@@ -20,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Gherkin feature file" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -53,7 +53,7 @@
       <recent name="D:\automation\YouTube-Automation\features\tests\Big tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Behave.youtube_whole_main_page_test2.feature">
+  <component name="RunManager" selected="Behave.youtube_whole_main_page_test.feature (1)">
     <configuration name="youtube_music_button_test.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="YouTube-Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,7 +68,7 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="youtube_music_button_test.feature:Check &quot;Music&quot; button on the main page" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+    <configuration name="youtube_sports_button_test.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="YouTube-Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,8 +78,22 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Small tests/youtube_music_button_test.feature" />
-      <SCENRAIO_NAMES SCENRAIO_NAMES="Check &quot;Music&quot; button on the main page" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Small tests/youtube_sports_button_test.feature" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="youtube_sports_button_test.feature:Check &quot;Sports&quot; button on the main page" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="YouTube-Automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Small tests/youtube_sports_button_test.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="Check &quot;Sports&quot; button on the main page" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
@@ -111,27 +125,13 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="youtube_youtube_button_test.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
-      <module name="YouTube-Automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Small tests/youtube_youtube_button_test.feature" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Behave.youtube_whole_main_page_test2.feature" />
         <item itemvalue="Behave.youtube_whole_main_page_test.feature (1)" />
+        <item itemvalue="Behave.youtube_whole_main_page_test2.feature" />
+        <item itemvalue="Behave.youtube_sports_button_test.feature:Check &quot;Sports&quot; button on the main page" />
+        <item itemvalue="Behave.youtube_sports_button_test.feature" />
         <item itemvalue="Behave.youtube_music_button_test.feature" />
-        <item itemvalue="Behave.youtube_music_button_test.feature:Check &quot;Music&quot; button on the main page" />
-        <item itemvalue="Behave.youtube_youtube_button_test.feature" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633213415088</updated>
       <workItem from="1633213418069" duration="11914000" />
-      <workItem from="1633299417313" duration="5505000" />
+      <workItem from="1633299417313" duration="7025000" />
     </task>
     <servers />
   </component>
@@ -152,22 +152,24 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_whole_main_page_test2_feature.coverage" NAME="youtube_whole_main_page_test2.feature Coverage Results" MODIFIED="1633308214277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_whole_main_page_test2_feature.coverage" NAME="youtube_whole_main_page_test2.feature Coverage Results" MODIFIED="1633309685579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_main_page_test_feature_Main_page_test.coverage" NAME="youtube_main_page_test.feature:Main page test Coverage Results" MODIFIED="1633221451648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_whole_main_page_test_feature.coverage" NAME="youtube_whole_main_page_test.feature Coverage Results" MODIFIED="1633223221476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_sign_in_side_button_test_feature.coverage" NAME="youtube_sign_in_side_button_test.feature Coverage Results" MODIFIED="1633227813099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_youtube_button_test_feature.coverage" NAME="youtube_youtube_button_test.feature Coverage Results" MODIFIED="1633302128576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_explore_button_feature.coverage" NAME="youtube_explore_button.feature Coverage Results" MODIFIED="1633213479977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_sports_button_test_feature.coverage" NAME="youtube_sports_button_test.feature Coverage Results" MODIFIED="1633308898957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_music_button_test_feature_Check__Music__button_on_the_main_page.coverage" NAME="youtube_music_button_test.feature:Check &quot;Music&quot; button on the main page Coverage Results" MODIFIED="1633307806566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$Testing_feature.coverage" NAME="Testing.feature Coverage Results" MODIFIED="1633222921122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_home_button_test_feature.coverage" NAME="youtube_home_button_test.feature Coverage Results" MODIFIED="1633300081004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_subscriptions_button_test_feature.coverage" NAME="youtube_subscriptions_button_test.feature Coverage Results" MODIFIED="1633216333285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_explore_button_test_feature.coverage" NAME="youtube_explore_button_test.feature Coverage Results" MODIFIED="1633223643761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_whole_main_page_test_feature__1_.coverage" NAME="youtube_whole_main_page_test.feature (1) Coverage Results" MODIFIED="1633308102143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_whole_main_page_test_feature__1_.coverage" NAME="youtube_whole_main_page_test.feature (1) Coverage Results" MODIFIED="1633309734482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_main_page_test_feature.coverage" NAME="youtube_main_page_test.feature Coverage Results" MODIFIED="1633216549110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_history_button_test_feature_Check__History__button_on_the_main_page.coverage" NAME="youtube_history_button_test.feature:Check &quot;History&quot; button on the main page Coverage Results" MODIFIED="1633224228158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_history_button_test_feature.coverage" NAME="youtube_history_button_test.feature Coverage Results" MODIFIED="1633224397557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_music_button_test_feature.coverage" NAME="youtube_music_button_test.feature Coverage Results" MODIFIED="1633307956762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_sports_button_test_feature_Check__Sports__button_on_the_main_page.coverage" NAME="youtube_sports_button_test.feature:Check &quot;Sports&quot; button on the main page Coverage Results" MODIFIED="1633309277115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_library_button_test_feature.coverage" NAME="youtube_library_button_test.feature Coverage Results" MODIFIED="1633222789507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
