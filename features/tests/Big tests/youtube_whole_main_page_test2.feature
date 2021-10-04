@@ -34,10 +34,6 @@ Feature: Test YouTube Main/Home page
     Given Open YouTube page
     When Click "Sign in" button on left side
     Then Verify "Sign in" button worked
-      #  Check "Sign in" button on the main page, side menu
-    Given Open YouTube page
-    When Click "Sign in" button on left side
-    Then Verify "Sign in" button worked
       #  Check "Music" button on the main page
     Given Open YouTube page
     When Click "Music" button on left side
@@ -50,3 +46,7 @@ Feature: Test YouTube Main/Home page
     Given Open YouTube page
     When Click "Gaming" button on left side
     Then Verify "Gaming" button worked
+      #  Check "Movies & Shows" button on the main page
+    Given Open YouTube page
+    When Click "Movies & Shows" button on left side
+    Then Verify "Movies & Shows" button worked

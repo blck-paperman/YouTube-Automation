@@ -65,3 +65,9 @@ Feature: Test YouTube Main page
     Given Open YouTube page
     When Click "Gaming" button on left side
     Then Verify "Gaming" button worked
+
+
+  Scenario: Check "Movies & Shows" button on the main page
+    Given Open YouTube page
+    When Click "Movies & Shows" button on left side
+    Then Verify "Movies & Shows" button worked
