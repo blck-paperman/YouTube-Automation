@@ -62,3 +62,7 @@ Feature: Test YouTube Main/Home page
     Given Open YouTube page
     When Click "Fashion & Beauty" button on left side
     Then Verify "Fashion & Beauty" button worked
+      #  Check "Learning" button on the main page
+    Given Open YouTube page
+    When Click "Learning" button on left side
+    Then Verify "Learning" button worked

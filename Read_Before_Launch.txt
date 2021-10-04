@@ -3,8 +3,8 @@ Currently, supported Chrome Version 93.0.4577.63 (Official Build) (64-bit)
 The test may take longer depending on the hardware.
 
     Tests description (Big tests):
-        1. youtube_whole_main_page_test.feature ------------------ Whole YouTube main page test, multiple scenarios (36sec)
-        2. youtube_whole_main_page_test2.feature ----------------- Whole YouTube main page test, with 1 scenario (faster than #1) (26.7sec)
+        1. youtube_whole_main_page_test.feature ------------------ Whole YouTube main page test, multiple scenarios (38.2sec)
+        2. youtube_whole_main_page_test2.feature ----------------- Whole YouTube main page test, with 1 scenario (faster than #1) (28.7sec)
 
     Tests description (Small tests):
         1. youtube_main_page_test.feature ------------------------ Testing YouTube main page -------------------------------------------------- (url)
@@ -22,3 +22,4 @@ The test may take longer depending on the hardware.
         13. youtube_news_button_test.feature --------------------- Testing "News" button on the main page ------------------------------------- (XPATH, text)
         14. youtube_live_button_test.feature --------------------- Testing "Live" button on the main page ------------------------------------- (XPATH, text)
         15. youtube_fashion_and_beauty_button_test.feature ------- Testing "Fashion & Beauty" button on the main page ------------------------- (XPATH, text)
+        16. youtube_learning_button_test.feature ----------------- Testing "Learning" button on the main page --------------------------------- (XPATH, text)

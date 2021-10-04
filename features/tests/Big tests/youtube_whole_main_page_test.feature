@@ -89,3 +89,9 @@ Feature: Test YouTube Main page
     Given Open YouTube page
     When Click "Fashion & Beauty" button on left side
     Then Verify "Fashion & Beauty" button worked
+
+
+  Scenario: Check "Learning" button on the main page
+    Given Open YouTube page
+    When Click "Learning" button on left side
+    Then Verify "Learning" button worked
