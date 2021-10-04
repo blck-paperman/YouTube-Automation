@@ -47,3 +47,9 @@ Feature: Test YouTube Main page
     Given Open YouTube page
     When Click "Sign in" button on left side
     Then Verify "Sign in" button worked
+
+
+  Scenario: Check "Music" button on the main page
+    Given Open YouTube page
+    When Click "Music" button on left side
+    Then Verify "Music" button worked
