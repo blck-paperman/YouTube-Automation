@@ -77,3 +77,9 @@ Feature: Test YouTube Main page
     Given Open YouTube page
     When Click "News" button on left side
     Then Verify "News" button worked
+
+
+  Scenario: Check "Live" button on the main page
+    Given Open YouTube page
+    When Click "Live" button on left side
+    Then Verify "Live" button worked
