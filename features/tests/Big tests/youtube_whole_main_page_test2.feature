@@ -50,3 +50,7 @@ Feature: Test YouTube Main/Home page
     Given Open YouTube page
     When Click "Movies & Shows" button on left side
     Then Verify "Movies & Shows" button worked
+      #  Check "News" button on the main page
+    Given Open YouTube page
+    When Click "News" button on left side
+    Then Verify "News" button worked
