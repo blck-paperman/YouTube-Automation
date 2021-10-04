@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a2a5b7-8998-4b97-a74c-ce5a1ecc36bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/features/steps/youtube_live_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/tests/Small tests/youtube_live_button_test.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Read_Before_Launch.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps/youtube_fashion_and_beauty_button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/tests/Small tests/youtube_fashion_and_beauty_button_test.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Description.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/features/tests/Big tests/youtube_whole_main_page_test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Big tests/youtube_whole_main_page_test.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/tests/Big tests/youtube_whole_main_page_test2.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Big tests/youtube_whole_main_page_test2.feature" afterDir="false" />
     </list>
@@ -54,6 +55,35 @@
     </key>
   </component>
   <component name="RunManager" selected="Behave.youtube_whole_main_page_test2.feature">
+    <configuration name="youtube_fashion_and_beauty_button_test.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="YouTube-Automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Small tests/youtube_fashion_and_beauty_button_test.feature" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="youtube_fashion_and_beauty_button_test.feature:Check &quot;Fashion &amp; Beauty&quot; button on the main page" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="YouTube-Automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Small tests/youtube_fashion_and_beauty_button_test.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="Check &quot;Fashion &amp; Beauty&quot; button on the main page" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="youtube_live_button_test.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="YouTube-Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,34 +95,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Small tests/youtube_live_button_test.feature" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="youtube_movies_and_shows_button_test.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
-      <module name="YouTube-Automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Small tests/youtube_movies_and_shows_button_test.feature" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="youtube_news_button_test.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
-      <module name="YouTube-Automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Small tests/youtube_news_button_test.feature" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
@@ -128,9 +130,9 @@
       <list>
         <item itemvalue="Behave.youtube_whole_main_page_test2.feature" />
         <item itemvalue="Behave.youtube_whole_main_page_test.feature (1)" />
+        <item itemvalue="Behave.youtube_fashion_and_beauty_button_test.feature:Check &quot;Fashion &amp; Beauty&quot; button on the main page" />
+        <item itemvalue="Behave.youtube_fashion_and_beauty_button_test.feature" />
         <item itemvalue="Behave.youtube_live_button_test.feature" />
-        <item itemvalue="Behave.youtube_news_button_test.feature" />
-        <item itemvalue="Behave.youtube_movies_and_shows_button_test.feature" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633213415088</updated>
       <workItem from="1633213418069" duration="11914000" />
-      <workItem from="1633299417313" duration="12181000" />
+      <workItem from="1633299417313" duration="13399000" />
     </task>
     <servers />
   </component>
@@ -159,9 +161,11 @@
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_movies_and_shows_button_test_feature.coverage" NAME="youtube_movies_and_shows_button_test.feature Coverage Results" MODIFIED="1633311587320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_whole_main_page_test_feature_Check__Gaming__button_on_the_main_page.coverage" NAME="youtube_whole_main_page_test.feature:Check &quot;Gaming&quot; button on the main page Coverage Results" MODIFIED="1633310519197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$Testing_feature.coverage" NAME="Testing.feature Coverage Results" MODIFIED="1633222921122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_whole_main_page_test_feature__1_.coverage" NAME="youtube_whole_main_page_test.feature (1) Coverage Results" MODIFIED="1633314611834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_whole_main_page_test_feature__1_.coverage" NAME="youtube_whole_main_page_test.feature (1) Coverage Results" MODIFIED="1633315786241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_fashion_and_beauty_button_test_feature.coverage" NAME="youtube_fashion_and_beauty_button_test.feature Coverage Results" MODIFIED="1633315602137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_music_button_test_feature.coverage" NAME="youtube_music_button_test.feature Coverage Results" MODIFIED="1633307956762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_whole_main_page_test2_feature.coverage" NAME="youtube_whole_main_page_test2.feature Coverage Results" MODIFIED="1633314728880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_fashion_and_beauty_button_test_feature_Check__Fashion___Beauty__button_on_the_main_page.coverage" NAME="youtube_fashion_and_beauty_button_test.feature:Check &quot;Fashion &amp; Beauty&quot; button on the main page Coverage Results" MODIFIED="1633315617898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_whole_main_page_test2_feature.coverage" NAME="youtube_whole_main_page_test2.feature Coverage Results" MODIFIED="1633315894636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_news_button_test_feature.coverage" NAME="youtube_news_button_test.feature Coverage Results" MODIFIED="1633313887396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_gaming_button_test_feature_Check__Gaming__button_on_the_main_page.coverage" NAME="youtube_gaming_button_test.feature:Check &quot;Gaming&quot; button on the main page Coverage Results" MODIFIED="1633310391789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/YouTube_Automation$youtube_sign_in_side_button_test_feature.coverage" NAME="youtube_sign_in_side_button_test.feature Coverage Results" MODIFIED="1633227813099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

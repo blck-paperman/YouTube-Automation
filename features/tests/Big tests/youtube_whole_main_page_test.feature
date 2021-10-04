@@ -83,3 +83,9 @@ Feature: Test YouTube Main page
     Given Open YouTube page
     When Click "Live" button on left side
     Then Verify "Live" button worked
+
+
+  Scenario: Check "Fashion & Beauty" button on the main page
+    Given Open YouTube page
+    When Click "Fashion & Beauty" button on left side
+    Then Verify "Fashion & Beauty" button worked
