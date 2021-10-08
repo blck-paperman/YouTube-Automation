@@ -95,3 +95,9 @@ Feature: Test YouTube Main page
     Given Open YouTube page
     When Click "Learning" button on left side
     Then Verify "Learning" button worked
+
+
+  Scenario: Check "Spotlight" button on the main page
+    Given Open YouTube page
+    When Click "Spotlight" button on left side
+    Then Verify "Spotlight" button worked

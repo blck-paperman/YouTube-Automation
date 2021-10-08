@@ -9,7 +9,7 @@ def click_youtube_learning_button(context):
 
 @then('Verify "Learning" button worked')
 def verify_youtube_learning_button_worked(context):
-    expected_result = "Learning"
     actual_result = context.driver.find_element(By.XPATH, "//div[@id='inner-header-container']//h1[@class="
                                                           "'style-scope ytd-topic-channel-details-renderer']").text
+    expected_result = "Learning"
     assert expected_result == actual_result, f'Expected "{expected_result}", but got "{actual_result}"'

@@ -9,7 +9,7 @@ def click_youtube_live_button(context):
 
 @then('Verify "Live" button worked')
 def verify_youtube_live_button_worked(context):
-    expected_result = "Live"
     actual_result = context.driver.find_element(By.XPATH, "//div[@id='channel-header-container']"
                                                       "//ytd-channel-name[@id='channel-name']").text
+    expected_result = "Live"
     assert expected_result == actual_result, f'Expected {expected_result}, but got {actual_result}'
