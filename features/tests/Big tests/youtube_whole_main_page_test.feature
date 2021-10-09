@@ -101,3 +101,9 @@ Feature: Test YouTube Main page
     Given Open YouTube page
     When Click "Spotlight" button on left side
     Then Verify "Spotlight" button worked
+
+
+  Scenario: Check "360° Video" button on the main page
+    Given Open YouTube page
+    When Click "360° Video" button on left side
+    Then Verify "360° Video" button worked
