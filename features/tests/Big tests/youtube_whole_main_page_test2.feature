@@ -78,3 +78,7 @@ Feature: Test YouTube Main/Home page
     Given Open YouTube page
     When Click "Browse channels" button on left side
     Then Verify "Browse channels" button worked
+      #  Check "YouTube Premium" button on the main page
+    Given Open YouTube page
+    When Click "YouTube Premium" button on left side
+    Then Verify "YouTube Premium" button worked
