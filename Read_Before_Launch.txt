@@ -23,5 +23,6 @@ The test may take longer depending on the hardware.
         14. youtube_live_button_test.feature --------------------- Testing "Live" button on the main page ------------------------------------- (XPATH, text)
         15. youtube_fashion_and_beauty_button_test.feature ------- Testing "Fashion & Beauty" button on the main page ------------------------- (XPATH, text)
         16. youtube_learning_button_test.feature ----------------- Testing "Learning" button on the main page --------------------------------- (XPATH, text)
-        17. youtube_spotlight_button_test.feature ---------------- Testing "Spotlight" button on the main page -------------------------------- (url)
+        17. youtube_spotlight_button_test.feature ---------------- Testing "Spotlight" button on the main page -------------------------------- (XPATH, url)
         18. youtube_360video_button_test.feature ----------------- Testing "360° Video" button on the main page ------------------------------- (XPATH, text)
+        19. youtube_browse_channels_button_test.feature ---------- Testing "Browse channels" button on the main page -------------------------- (XPATH, url)

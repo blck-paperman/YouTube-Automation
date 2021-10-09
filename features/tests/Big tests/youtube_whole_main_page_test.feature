@@ -107,3 +107,9 @@ Feature: Test YouTube Main page
     Given Open YouTube page
     When Click "360° Video" button on left side
     Then Verify "360° Video" button worked
+
+
+  Scenario: Check "Browse channels" button on the main page
+    Given Open YouTube page
+    When Click "Browse channels" button on left side
+    Then Verify "Browse channels" button worked
