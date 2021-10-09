@@ -27,3 +27,4 @@ The test may take longer depending on the hardware.
         18. youtube_360video_button_test.feature ----------------- Testing "360° Video" button on the main page ------------------------------- (XPATH, text)
         19. youtube_browse_channels_button_test.feature ---------- Testing "Browse channels" button on the main page -------------------------- (XPATH, url)
         20. youtube_youtube_premium_button_test.feature ---------- Testing "YouTube Premium" button on the main page -------------------------- (XPATH, url)
+        21. youtube_more_from_youtube_text_test.feature ---------- Testing than "MORE FROM YOUTUBE" text is present on the main page ---------- (XPATH, text)

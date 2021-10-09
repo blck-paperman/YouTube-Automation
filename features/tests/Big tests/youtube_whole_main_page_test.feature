@@ -115,6 +115,11 @@ Feature: Test YouTube Main page
     Then Verify "Browse channels" button worked
 
 
+  Scenario: Check if "MORE FROM YOUTUBE" text is present on side menu
+    Given Open YouTube page
+    Then Verify "MORE FROM YOUTUBE" text present
+
+
   Scenario: Check "YouTube Premium" button on the main page
     Given Open YouTube page
     When Click "YouTube Premium" button on left side
